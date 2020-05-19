@@ -1,32 +1,26 @@
 # lab06 Diseño de banco de Registro
 
-# Introducción
+# Integrantes:
 
-
-Para este paquete de trabajo, deben estar inscrito en un grupo y clonar la información del siguiente link [WP06](https://classroom.github.com/g/XHLhUCe3). Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe cómo hacerlo revise la metodología de trabajo, donde se explica el proceso
-
-Las documentación deben estar diligencia en el archivo README.md del repositorio clonado.
-
-Una vez clone el repositorio, realice lo siguiente:
+# LUIS FERNANDO GARCIA COD:
+# DANIEL EDUARDO HERNANDEZ ESQUIVEL COD: 67632
 
 
 ## Descipción 
-Se debe diseñar un banco de registro tal que:
+Banco de registro descripcion :
 
-* El banco de registro debe tener 16 registros de R/W.
-* Permitir la lectura de 2 registros  simultáneamente 
-* Permitir la escritura  de 1 registro, acorde a la señal de control regwrite
-* Contar con señal de rst, la cual  ponga  todos los registros en un valor conocido.
+* El banco de registro tiene 4 registros de R/W.
+* Cada registro es de 4 bits 
+* señal de rst, la cual  pone  todos los registros en un valor predeterminado
+* La vizualisación en dos display siete segmentos[dataoutA] y [dataoutB].
+* El ingreso de la información se realiza por medio de los interruptores [9:6].
 
 ![cn](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab07-BancosRgistro/doc/caja%20negra.png)
 
-* Visualizar la información, en al menos dos display de 7 segmentos (información de cada registro leído).
-* El ingreso de la información se debe hacer por medio de los interruptores.
 
 
-**Opcional. Da mas puntos:**
-* Parametrizar el tamaño de palabra de cada registro  y la cantidad de registro ( Por defecto =4 bits). Se recomienda leer el documento de este [link](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-884-complex-digital-systems-spring-2005/related-resources/parameter_models.pdf) .
-* Pre cargar el banco de registro con información.  _Usar $readmenh_  (Investigar: "Initialize Memory in Verilog").
+
+
 
 Entregables:
 
