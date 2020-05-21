@@ -1,12 +1,12 @@
-# lab06 Diseño de banco de Registro
 
 # Integrantes:
 
-# LUIS FERNANDO GARCIA COD:
-# DANIEL EDUARDO HERNANDEZ ESQUIVEL COD: 67632
+# Luis Fernando Garcia Romero COD: 84948 
+# Daniel Eduardo Hernandez Esquivel COD: 67632 
 
+# lab06 Diseño de banco de Registro
 
-## Descipción 
+## Descipción    
 Banco de registro descripcion :
 
 * El banco de registro tiene 4 registros de R/W.
