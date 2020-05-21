@@ -14,8 +14,20 @@ Se presentan dos entregas de banco de registros, una en Quartus, donde se config
 * El banco de registro tiene 16 registros de R/W.
 * Cada registro es de 4 bits .
 * Una configuracion inicial, la cual  pone  todos los registros en un valor predeterminado .
+* La vizualisación en dos display siete segmentos[dataoutA] y [dataoutB].  Visualizada en el diagrama de tiempos del testbench.
+* Archivo testbench, donde se observa el funcionamiento del banco de registros.
+
+El codigo de la generacion del banco de registros asi como el archivo testbench se pueden vizualizar en las carpetas adjutas.
+
+La segunda presentacion del banco de registros se realiza en laboratorio remoto, donde por los switch disponibles se realizó la siguiente implementacion:
+
+
+* El banco de registro tiene 4 registros de R/W. 
+* Cada registro es de 4 bits .
+* Una configuracion inicial, la cual  pone  todos los registros en un valor predeterminado .
 * La vizualisación en dos display siete segmentos[dataoutA] y [dataoutB]. 
-* El ingreso de la información se realiza por medio de los interruptores [9:6].
+
+
 
 ![cn](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab07-BancosRgistro/doc/caja%20negra.png)
 
